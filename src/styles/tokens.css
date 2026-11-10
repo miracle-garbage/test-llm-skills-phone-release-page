@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+
+  /* palette */
+  --bg: #06070a;
+  --bg-soft: #0a0c11;
+  --ink: #f3f1ea;
+  --ink-soft: #d9d6cd;
+  --muted: rgba(243, 241, 234, 0.56);
+  --dim: rgba(243, 241, 234, 0.3);
+  --line: rgba(255, 255, 255, 0.11);
+  --line-soft: rgba(255, 255, 255, 0.06);
+  --accent: #5ef2d6;
+  --accent-ink: #041310;
+  --accent-2: #ff7a45;
+  --silver: #c9c6c0;
+  --titanium: #8f8b84;
+  --aurora: #3f6f63;
+  --lunar: #e8e6df;
+
+  /* type */
+  --font-display: "Space Grotesk Variable", "Space Grotesk", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-body: "Space Grotesk Variable", "Space Grotesk", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-serif: "Instrument Serif", "Songti SC", Georgia, serif;
+  --font-mono: "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
+
+  /* layout */
+  --max: 1440px;
+  --pad: clamp(20px, 4.2vw, 72px);
+  --gutter: clamp(16px, 2.4vw, 40px);
+  --radius: 20px;
+  --radius-sm: 12px;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur: 0.9s;
+
+  /* effects */
+  --shadow-soft: 0 30px 120px rgba(0, 0, 0, 0.55);
+  --glass: rgba(12, 14, 19, 0.42);
+}
